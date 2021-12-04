@@ -129,8 +129,6 @@ def play_bingo(boards, nums):
         while len(garb) > 0:
             board = garb.pop()
             boards.remove(board)
-            
-
     return winners[-1][0] * winners[-1][1]
 
 if __name__ == "__main__":
